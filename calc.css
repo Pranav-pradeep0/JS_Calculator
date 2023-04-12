@@ -6,16 +6,24 @@ body{
     border-radius: 20px;
     margin-top: 100px;
     padding-block: 50px;
-    width: 35%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(37, 37, 37);
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.644);
 }
+
+@media (min-width:800px){
+    .backgroundDiv{
+        width: 35%;
+    }
+}
+
 .inputandclear{
     display: flex;
 }
+
 
 .inp{
     border-top-right-radius: 0;
